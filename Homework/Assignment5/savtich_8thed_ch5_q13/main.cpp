@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 }
 //Start Function Definitions
 //Begin Input Function Definition
-void inpt(float& a, float& b, float& c){
+void input(float& a, float& b, float& c){
     do{
     cout<<"\n";
     cout<<"Calculate the area of a triangle. Enter all side individually.\n";
@@ -51,7 +51,7 @@ void calc(float& a, float& b, float& c, float& s, float& area, float& p){
     p=a+b+c;            //Perimeter is the sum of all the side lengths
 //End Calculation Function Definition           
 }//Starts Output Function Definition
-void outpt(float& area, float& p){
+void output(float& area, float& p){
     cout.setf(ios::fixed);          //Makes everything looks pretty
     cout.setf(ios::showpoint);      
     cout.precision(2);              //Outputs calculations
